@@ -116,8 +116,8 @@ function handleNextButton(){
 function showScore(){
     resetState();
     questionElement.innerHTML = `Your Scored ${score} out of ${questions.length}!`;
-    nextButton.innerHTML = 'Play Again';
-    nextButton.style.display = 'block'
+    nextButton.innerHTML = '<a href="../index.html">Play Again</a>';
+    nextButton.style.display = 'block';
 }
 
 nextButton.addEventListener('click', ()=>{

@@ -25,6 +25,11 @@ body{
     min-height: 100dvh;
 }
 
+a{
+    text-decoration: none;
+    color: var(--accent-color);
+}
+
 ::selection{
     background-color: var(--primary-color);
     color: var(--accent-color);
