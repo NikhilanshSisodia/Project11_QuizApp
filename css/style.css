@@ -22,4 +22,67 @@ body{
     min-height: 100dvh;
 }
 
+::selection{
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+}
 
+/* Utilities Classes*/
+
+.rock{
+    font-family: "Rock Salt", cursive;
+}
+
+.mono{
+    font-family: "Roboto Mono", monospace;
+}
+
+.primary-btn{
+    text-decoration: none;
+    user-select: none;
+    font-family: "Roboto Mono", monospace;
+    color: var(--accent-color);
+    background-color: var(--primary-color);
+    width: 300px;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 50px;
+    margin-top: 30px;
+    transition: all 0.2s ease-in-out;
+}
+
+.primary-btn:hover{
+    background-color: var(--secondary-color);
+}
+
+/* Home Page */
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-img{
+    width: 300px;
+    height: 300px;
+    user-select: none;
+}
+
+.home-heading{
+    font-size: 72px;
+    text-align: center;
+    color: var(--primary-color);
+    user-select: none;
+}
+
+/* Navigation Page */
+
+.navigator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 60dvh;
+}
